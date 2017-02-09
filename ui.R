@@ -15,7 +15,7 @@ shinyUI(fluidPage(
   # Application title
   titlePanel("Diamond price prediction"),
   
-  # Sidebar with a slider input for number of bins 
+  # Sidebar with options selectors 
   sidebarLayout(
     sidebarPanel(
         helpText("This application predicts the price of a diamond based on its characteristics."),
@@ -36,7 +36,7 @@ shinyUI(fluidPage(
                                   "VVS2" = "VVS2", "VVS1" = "VVS1", "IF" = "IF" ))
     ),
     
-    # Show a plot of the generated distribution
+    # Show a plot with diamonds and regression line
     mainPanel(
        plotOutput("distPlot"),
        h4("Predicted value of this diamond is:"),
