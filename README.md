@@ -5,4 +5,4 @@ The application predicts the price of diamonds.
 
 The final result can be seen [**here**] (https://avkch.shinyapps.io/Course-Project-Shiny-Application-and-Reproducible-Pitch).
 
-The presentation explaining the application can be seen [**here**](http://rpubs.com/avkch/248596)
+The presentation explaining the application can be seen [**here**](http://rpubs.com/avkch/248607)
